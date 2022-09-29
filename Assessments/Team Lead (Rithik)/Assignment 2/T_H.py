@@ -6,6 +6,6 @@ while True:
     print("Temperature (F) : ",t,chr(176),"F",sep='')
     h=random.randint(10,100)
     print("Temperature (C) : " ,(((t-32)*5)//9),chr(176),"C",sep='')
-    print("Humidity : ",h,"%")
-    time.sleep(5)
+    print("Humidity : ",h,"%",sep='')
+    time.sleep(1)
     print("--------------------------")
